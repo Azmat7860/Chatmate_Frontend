@@ -114,7 +114,7 @@ const MessageList = ({
             <p style={{ whiteSpace: "pre-wrap" }}>{msg.message}</p>
             <div className="flex justify-end items-center space-x-2 mt-1 text-sm">
               <span
-                className={`${darkMode ? "text-gray-400" : "text-gray-600"}`}
+                className={`${darkMode ? "text-gray-300" : "text-gray-700"}`}
               >
                 {formatTime(msg.createdAt)}
               </span>
